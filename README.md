@@ -30,3 +30,10 @@ A step by step series of examples that tell you how to get a development environ
 ```bash
 git clone https://github.com/yourusername/RESTful-CRUD-API.git
 cd RESTful-CRUD-API
+
+1. Set up your PostgreSQL database and note the connection string.
+2. Store your database connection string in an environment variable:
+
+```bash
+export DATABASE_URL="postgres://username:password@localhost:5432/yourdbname"
+
